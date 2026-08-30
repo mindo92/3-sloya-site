@@ -29,7 +29,7 @@
 
         <nav
           class="header__nav"
-          id="main-navigation"
+          id="header-menu"
           aria-label="Основная навигация"
         >
           <a class="header__nav-link" href="#services">Услуги</a>
@@ -37,6 +37,14 @@
           <a class="header__nav-link" href="#advantages"> Почему мы </a>
           <a class="header__nav-link" href="#process">Как мы работаем</a>
           <a class="header__nav-link" href="#contacts">Контакты</a>
+          <a class="header__mobile-phone" href="tel:+79135146439">
+            <img
+              class="header__mobile-phone-icon"
+              src="./images/icons/phone-blue.svg"
+              alt=""
+            />
+            8 913 514-64-39
+          </a>
         </nav>
 
         <a class="header__phone" href="tel:+79135146439">
@@ -53,9 +61,13 @@
           type="button"
           aria-label="Открыть меню"
           aria-expanded="false"
-          aria-controls="main-navigation"
+          aria-controls="header-menu"
         >
-          <img src="./images/icons/menu-dark.svg" alt="" />
+          <img
+            class="header__menu-icon"
+            src="./images/icons/menu-dark.svg"
+            alt=""
+          />
         </button>
       </div>
     </header>
@@ -514,7 +526,7 @@
                   </a>
 
                   <a class="contact__link" href="tel:+79082135946">
-                    +7 908 213-59-46
+                    8 908 213-59-46
                   </a>
                 </div>
               </div>
@@ -588,8 +600,8 @@
           <a class="footer__nav-link" href="#contacts">Контакты</a>
         </nav>
 
-        <a class="footer__top" href="#top">
-          Наверх
+        <a class="footer__back-to-top" href="#top" aria-label="Наверх">
+          <span class="footer__back-text">Наверх</span>
           <span aria-hidden="true">↑</span>
         </a>
 
@@ -598,5 +610,6 @@
         </p>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
