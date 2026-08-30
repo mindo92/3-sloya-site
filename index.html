@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3 Слоя</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a
+          class="header__logo-link"
+          href="#top"
+          aria-label="Малярная мастерская 3 слоя"
+        >
+          <img
+            class="header__logo"
+            src="./images/logo-3-sloya.png.png"
+            alt="Малярная мастерская 3 слоя"
+          />
+        </a>
+
+        <nav
+          class="header__nav"
+          id="main-navigation"
+          aria-label="Основная навигация"
+        >
+          <a class="header__nav-link" href="#services">Услуги</a>
+          <a class="header__nav-link" href="#works">Наши работы</a>
+          <a class="header__nav-link" href="#advantages"> Почему мы </a>
+          <a class="header__nav-link" href="#process">Как мы работаем</a>
+          <a class="header__nav-link" href="#contacts">Контакты</a>
+        </nav>
+
+        <a class="header__phone" href="tel:+79135146439">
+          <img
+            class="header__phone-icon"
+            src="./images/icons/phone-dark.svg"
+            alt=""
+          />
+          <span>8 913 514-64-39</span>
+        </a>
+
+        <button
+          class="header__menu-button"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+        >
+          <img src="./images/icons/menu-dark.svg" alt="" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Красноярск · покраска авто</p>
+
+            <h1 class="hero__title">
+              Аккуратный кузов.
+              <span>Без лишних расходов.</span>
+            </h1>
+
+            <p class="hero__description">
+              Локальный ремонт, покраска отдельных элементов и полный окрас
+              автомобиля. Пришлите фотографии — оценим объём и предложим
+              разумный вариант работ.
+            </p>
+
+            <div class="hero__actions">
+              <a
+                class="button button--primary"
+                href="https://t.me/Mindo86"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="button__icon"
+                  src="./images/icons/send-photo-white.svg"
+                  alt=""
+                />
+                <span>Отправить фото</span>
+              </a>
+
+              <a class="button button--secondary" href="tel:+79135146439">
+                <img
+                  class="button__icon"
+                  src="./images/icons/phone-dark.svg"
+                  alt=""
+                />
+                <span>Позвонить</span>
+              </a>
+            </div>
+
+            <p class="hero__note">
+              Предварительная оценка по фото · точная стоимость после осмотра
+            </p>
+          </div>
+
+          <div class="hero__visual">
+            <div class="stripes" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="hero__image-wrapper">
+              <div class="hero__image-clip">
+                <img
+                  class="hero__image"
+                  src="./images/hero-car.png"
+                  alt="Автомобиль после полного окраса"
+                />
+              </div>
+            </div>
+
+            <div class="hero__caption">
+              <span>Реальная работа</span>
+              <strong>Полный окрас</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <h2 class="section-title">Услуги</h2>
+
+            <div class="section-stripes" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+
+          <div class="services__grid">
+            <article class="service">
+              <span class="service__number">01</span>
+
+              <h3 class="service__title">Покраска элемента</h3>
+
+              <p class="service__description">
+                Подготовка и окраска крыла, двери, капота, бампера или другого
+                элемента кузова.
+              </p>
+            </article>
+
+            <article class="service">
+              <span class="service__number">02</span>
+
+              <h3 class="service__title">Локальный окрас</h3>
+
+              <p class="service__description">
+                Ремонт небольшого участка с плавным переходом цвета без окраски
+                всего элемента.
+              </p>
+            </article>
+
+            <article class="service">
+              <span class="service__number">03</span>
+
+              <h3 class="service__title">Полный окрас</h3>
+
+              <p class="service__description">
+                Подготовка кузова и покраска автомобиля целиком. Объём работ
+                рассчитывается после осмотра.
+              </p>
+            </article>
+
+            <article class="service">
+              <span class="service__number">04</span>
+
+              <h3 class="service__title">Подготовка к продаже</h3>
+
+              <p class="service__description">
+                Устранение заметных дефектов кузова и приведение внешнего вида
+                автомобиля в порядок.
+              </p>
+            </article>
+
+            <article class="service">
+              <span class="service__number">05</span>
+
+              <h3 class="service__title">Удаление ржавчины</h3>
+
+              <p class="service__description">
+                Зачистка очагов коррозии, обработка металла и восстановление
+                лакокрасочного покрытия.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="works" id="works">
+        <div class="container">
+          <div class="section-heading works__heading">
+            <h2 class="section-title">Наши работы</h2>
+          </div>
+
+          <!-- Работа №1: ВАЗ 2107 -->
+          <article class="works__case">
+            <div class="works__comparison">
+              <figure class="work">
+                <figcaption class="work__label">До</figcaption>
+
+                <div class="work__image-wrapper">
+                  <img
+                    class="work__image"
+                    src="./images/work-before.png"
+                    alt="ВАЗ 2107 до покраски"
+                  />
+                </div>
+              </figure>
+
+              <img
+                class="works__arrow"
+                src="./images/icons/arrow-right-blue.svg"
+                alt=""
+              />
+
+              <figure class="work">
+                <figcaption class="work__label">Процесс</figcaption>
+
+                <div class="work__image-wrapper">
+                  <img
+                    class="work__image"
+                    src="./images/work-process.png"
+                    alt="ВАЗ 2107 в процессе покраски"
+                  />
+                </div>
+              </figure>
+
+              <img
+                class="works__arrow"
+                src="./images/icons/arrow-right-blue.svg"
+                alt=""
+              />
+
+              <figure class="work">
+                <figcaption class="work__label">После</figcaption>
+
+                <div class="work__image-wrapper">
+                  <img
+                    class="work__image"
+                    src="./images/work-after.png"
+                    alt="ВАЗ 2107 после полного окраса"
+                  />
+                </div>
+              </figure>
+            </div>
+
+            <div class="works__case-info">
+              <h3 class="works__case-title">ВАЗ 2107</h3>
+
+              <p class="works__case-description">
+                Подготовка кузова и полный окрас
+              </p>
+            </div>
+          </article>
+
+          <!-- Работа №2: ВАЗ 2108 -->
+          <article class="works__additional">
+            <div class="works__additional-image-wrapper">
+              <img
+                class="works__additional-image"
+                src="./images/work-08.png"
+                alt="Красная ВАЗ 2108 после покраски"
+              />
+            </div>
+
+            <div class="works__additional-content">
+              <span class="works__additional-label"> Ещё одна работа </span>
+
+              <h3 class="works__additional-title">ВАЗ 2108</h3>
+
+              <p class="works__additional-description">
+                Результат после покраски кузова
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="advantages" id="advantages">
+        <div class="container">
+          <div class="advantages__inner">
+            <div class="advantages__intro">
+              <span class="advantages__eyebrow"> Почему выбирают нас </span>
+
+              <h2 class="advantages__title">
+                Разумный ремонт.
+                <span>Без лишних расходов.</span>
+              </h2>
+
+              <p class="advantages__description">
+                Оцениваем состояние кузова и предлагаем подходящий вариант:
+                локальный ремонт, покраску элемента или полный окрас.
+              </p>
+            </div>
+
+            <div class="advantages__grid">
+              <article class="advantage">
+                <img
+                  class="advantage__icon"
+                  src="./images/icons/send-photo-blue.svg"
+                  alt=""
+                />
+
+                <h3 class="advantage__title">Оценка по фото</h3>
+
+                <p class="advantage__description">
+                  Предварительно оцениваем объём работ по фотографиям
+                  автомобиля.
+                </p>
+              </article>
+
+              <article class="advantage">
+                <img
+                  class="advantage__icon"
+                  src="./images/icons/tools-blue.svg"
+                  alt=""
+                />
+
+                <h3 class="advantage__title">Работы по состоянию</h3>
+
+                <p class="advantage__description">
+                  Подбираем вариант ремонта с учётом состояния кузова и вашего
+                  бюджета.
+                </p>
+              </article>
+
+              <article class="advantage">
+                <img
+                  class="advantage__icon"
+                  src="./images/icons/wallet-blue.svg"
+                  alt=""
+                />
+
+                <h3 class="advantage__title">Стоимость до начала</h3>
+
+                <p class="advantage__description">
+                  После осмотра заранее согласовываем объём, стоимость и срок
+                  работы.
+                </p>
+              </article>
+
+              <article class="advantage">
+                <img
+                  class="advantage__icon"
+                  src="./images/icons/success-blue.svg"
+                  alt=""
+                />
+
+                <h3 class="advantage__title">Реальные примеры</h3>
+
+                <p class="advantage__description">
+                  Показываем автомобили до ремонта, в процессе работы и после
+                  покраски.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="process" id="process">
+        <div class="container">
+          <div class="section-heading">
+            <h2 class="section-title">Как мы работаем</h2>
+
+            <div class="section-stripes" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+
+          <ol class="process__list">
+            <li class="process__step">
+              <span class="process__number">01</span>
+
+              <img
+                class="process__icon"
+                src="./images/icons/send-photo-blue.svg"
+                alt=""
+              />
+
+              <h3 class="process__title">Отправляете фото</h3>
+
+              <p class="process__description">
+                Присылаете фотографии автомобиля или связываетесь с нами по
+                телефону.
+              </p>
+            </li>
+
+            <li class="process__step">
+              <span class="process__number">02</span>
+
+              <img
+                class="process__icon"
+                src="./images/icons/search-blue.svg"
+                alt=""
+              />
+
+              <h3 class="process__title">Получаете оценку</h3>
+
+              <p class="process__description">
+                Предварительно оцениваем объём работ по фотографиям.
+              </p>
+            </li>
+
+            <li class="process__step">
+              <span class="process__number">03</span>
+
+              <img
+                class="process__icon"
+                src="./images/icons/target-blue.svg"
+                alt=""
+              />
+
+              <h3 class="process__title">Согласовываем работу</h3>
+
+              <p class="process__description">
+                После осмотра определяем точную стоимость, перечень работ и
+                срок.
+              </p>
+            </li>
+
+            <li class="process__step">
+              <span class="process__number">04</span>
+
+              <img
+                class="process__icon"
+                src="./images/icons/paint-sprayer-blue.svg"
+                alt=""
+              />
+
+              <h3 class="process__title">Ремонтируем и красим</h3>
+
+              <p class="process__description">
+                Подготавливаем кузов и выполняем согласованные работы.
+              </p>
+            </li>
+
+            <li class="process__step">
+              <span class="process__number">05</span>
+
+              <img
+                class="process__icon"
+                src="./images/icons/success-blue.svg"
+                alt=""
+              />
+
+              <h3 class="process__title">Принимаете результат</h3>
+
+              <p class="process__description">
+                Показываем готовую работу и передаём вам автомобиль.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <div class="contacts__inner">
+            <div class="contacts__content">
+              <span class="contacts__eyebrow"> Свяжитесь с нами </span>
+
+              <h2 class="contacts__title">
+                Покажите повреждение
+                <span>— предложим вариант ремонта</span>
+              </h2>
+
+              <p class="contacts__description">
+                Пришлите фотографии автомобиля в Telegram. Предварительно оценим
+                объём работ, а точную стоимость назовём после осмотра.
+              </p>
+
+              <a
+                class="button button--primary contacts__button"
+                href="https://t.me/Mindo86"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="button__icon"
+                  src="./images/icons/send-photo-white.svg"
+                  alt=""
+                />
+                Отправить фото
+              </a>
+            </div>
+
+            <address class="contacts__details">
+              <div class="contact">
+                <img
+                  class="contact__icon"
+                  src="./images/icons/phone-blue.svg"
+                  alt=""
+                />
+
+                <div class="contact__content">
+                  <span class="contact__label">Телефоны</span>
+
+                  <a class="contact__link" href="tel:+79135146439">
+                    8 913 514-64-39
+                  </a>
+
+                  <a class="contact__link" href="tel:+79082135946">
+                    +7 908 213-59-46
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact">
+                <img
+                  class="contact__icon"
+                  src="./images/icons/send-photo-blue.svg"
+                  alt=""
+                />
+
+                <div class="contact__content">
+                  <span class="contact__label">Telegram</span>
+
+                  <a
+                    class="contact__link"
+                    href="https://t.me/Mindo86"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    @Mindo86
+                  </a>
+
+                  <a
+                    class="contact__link"
+                    href="https://t.me/arkadev77"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    @arkadev77
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact">
+                <img
+                  class="contact__icon"
+                  src="./images/icons/location-blue.svg"
+                  alt=""
+                />
+
+                <div class="contact__content">
+                  <span class="contact__label">Город</span>
+                  <span class="contact__text">Красноярск</span>
+                </div>
+              </div>
+            </address>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__inner">
+        <a
+          class="footer__logo-link"
+          href="#top"
+          aria-label="Перейти в начало страницы"
+        >
+          <img
+            class="footer__logo"
+            src="./images/logo-3-sloya.png.png"
+            alt="Автомалярная мастерская 3 слоя"
+          />
+        </a>
+
+        <nav class="footer__nav" aria-label="Навигация в подвале">
+          <a class="footer__nav-link" href="#services">Услуги</a>
+          <a class="footer__nav-link" href="#works">Работы</a>
+          <a class="footer__nav-link" href="#advantages">Почему мы</a>
+          <a class="footer__nav-link" href="#process">Как работаем</a>
+          <a class="footer__nav-link" href="#contacts">Контакты</a>
+        </nav>
+
+        <a class="footer__top" href="#top">
+          Наверх
+          <span aria-hidden="true">↑</span>
+        </a>
+
+        <p class="footer__copyright">
+          © 2026 «3 слоя». Кузовной ремонт и покраска автомобилей.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
